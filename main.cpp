@@ -4,18 +4,26 @@
 main() 
 {
 	int a=0;
+		for (int j=5;j<6;j++) 
+	{
+		for(int i=1; i<11; i++)
+		{
+			printf("%i*%i=%i\n", j, i, j*i);
+		}
+		printf("\n\n");
+	}
 	while(a!=7)
 	{
 		scanf("%i", &a);
 		if(a>7)
 		{
-			printf("More\n");
+			printf("More than 7\n");
 		}
 		else
 		{
 			if(a<7)
 			{
-			printf("Less\n");
+			printf("Less than 7\n");
 			}
 		}
 		if(a>10)
